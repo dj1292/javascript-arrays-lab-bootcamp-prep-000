@@ -33,5 +33,7 @@ function removeLastKitten(Garfield) {
 }
 
 function removeFirstKitten(Milo) {
-  return kittens.slice(0,1)
+   kittens.slice(0,1);
+   cats = kittens.slice(0,1);
+   return cats;
 }
